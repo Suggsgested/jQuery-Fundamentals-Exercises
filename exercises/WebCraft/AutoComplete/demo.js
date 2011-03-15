@@ -6,9 +6,7 @@ $feed = $("#feed");
 $input = $("#q");
 $display = $("#resultDisplay");
 
-
-var jsonUrl = ""
-
+var jsonUrl = "/gh/get/response.json/Suggsgested/jQuery-Fundamentals-Exercises/tree/master/exercises/WebCraft/AutoComplete/"
 
 $.getJSON(jsonUrl, function(data) {
     console.log(data);
