@@ -1,3 +1,6 @@
+$(document).ready(function() {
+
+
 
 var cache = new Array();
 var search_string = "";
@@ -84,3 +87,4 @@ $input
 
 
 
+}
